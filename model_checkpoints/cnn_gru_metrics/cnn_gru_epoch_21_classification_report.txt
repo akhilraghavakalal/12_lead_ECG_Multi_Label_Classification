@@ -1,0 +1,36 @@
+Classification Report for CNN_GRU_Epoch_21
+==================================================
+                                               precision    recall  f1-score   support
+
+                          Normal sinus rhythm       0.55      0.21      0.30       647
+                          Atrial fibrillation       0.68      0.61      0.64       560
+                        First-degree AV block       0.82      0.85      0.84       490
+                     Left bundle branch block       0.52      0.56      0.54       462
+                    Right bundle branch block       0.90      0.80      0.84       385
+                 Premature atrial contraction       0.68      0.58      0.63       272
+            Premature ventricular contraction       0.82      0.80      0.81       350
+                        ST-segment depression       0.78      0.78      0.78       332
+                         ST-segment elevation       0.79      0.79      0.79       316
+                              T-wave abnormal       0.49      0.16      0.24       283
+                             T-wave inversion       0.50      0.13      0.21       294
+                          Left axis deviation       0.53      0.33      0.41       256
+                         Right axis deviation       0.55      0.43      0.48       235
+                             Low QRS voltages       0.56      0.47      0.51       197
+                            Sinus bradycardia       0.60      0.41      0.49       183
+                            Sinus tachycardia       0.47      0.37      0.42       198
+                 Left ventricular hypertrophy       0.47      0.27      0.34       161
+                Right ventricular hypertrophy       0.20      0.01      0.01       150
+                        Myocardial infarction       0.68      0.54      0.60       155
+                      Left atrial abnormality       0.57      0.56      0.57       147
+                     Right atrial abnormality       0.83      0.52      0.64       102
+Nonspecific intraventricular conduction delay       0.43      0.24      0.30        89
+                               Atrial flutter       0.50      0.28      0.36        95
+                   Wandering atrial pacemaker       0.29      0.18      0.22        93
+                 Supraventricular tachycardia       0.32      0.14      0.19        80
+                            Junctional rhythm       0.44      0.12      0.19       100
+                        Ventricular trigeminy       0.60      0.25      0.35        73
+
+                                    micro avg       0.66      0.49      0.56      6705
+                                    macro avg       0.58      0.42      0.47      6705
+                                 weighted avg       0.62      0.49      0.53      6705
+                                  samples avg       0.59      0.53      0.54      6705

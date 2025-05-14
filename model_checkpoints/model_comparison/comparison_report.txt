@@ -1,0 +1,365 @@
+Model Comparison Report
+=====================
+
+
+CNN-GRU Performance:
+-------------------
+Best Validation AUC: 0.9171
+Final Validation Loss: 0.1434
+
+Macro Averages:
+  precision: 0.5854
+  recall: 0.3917
+  f1: 0.4402
+
+Weighted Averages:
+  precision: 0.6427
+  recall: 0.4658
+  f1: 0.5143
+
+Per-Class Performance:
+
+Normal sinus rhythm:
+  precision: 0.5973
+  recall: 0.2040
+  f1: 0.3041
+  auc: inf
+
+Atrial fibrillation:
+  precision: 0.7607
+  recall: 0.5732
+  f1: 0.6538
+  auc: inf
+
+First-degree AV block:
+  precision: 0.7970
+  recall: 0.8735
+  f1: 0.8335
+  auc: inf
+
+Left bundle branch block:
+  precision: 0.5848
+  recall: 0.3658
+  f1: 0.4501
+  auc: inf
+
+Right bundle branch block:
+  precision: 0.8587
+  recall: 0.8208
+  f1: 0.8393
+  auc: inf
+
+Premature atrial contraction:
+  precision: 0.5823
+  recall: 0.6765
+  f1: 0.6259
+  auc: inf
+
+Premature ventricular contraction:
+  precision: 0.8000
+  recall: 0.8686
+  f1: 0.8329
+  auc: inf
+
+ST-segment depression:
+  precision: 0.7812
+  recall: 0.7530
+  f1: 0.7669
+  auc: inf
+
+ST-segment elevation:
+  precision: 0.8399
+  recall: 0.7468
+  f1: 0.7906
+  auc: inf
+
+T-wave abnormal:
+  precision: 0.5758
+  recall: 0.2014
+  f1: 0.2984
+  auc: inf
+
+T-wave inversion:
+  precision: 0.5429
+  recall: 0.1293
+  f1: 0.2088
+  auc: inf
+
+Left axis deviation:
+  precision: 0.6135
+  recall: 0.3906
+  f1: 0.4773
+  auc: inf
+
+Right axis deviation:
+  precision: 0.6436
+  recall: 0.2766
+  f1: 0.3869
+  auc: inf
+
+Low QRS voltages:
+  precision: 0.5424
+  recall: 0.4873
+  f1: 0.5134
+  auc: inf
+
+Sinus bradycardia:
+  precision: 0.5603
+  recall: 0.4317
+  f1: 0.4877
+  auc: inf
+
+Sinus tachycardia:
+  precision: 0.5758
+  recall: 0.1919
+  f1: 0.2879
+  auc: inf
+
+Left ventricular hypertrophy:
+  precision: 0.4531
+  recall: 0.1801
+  f1: 0.2578
+  auc: inf
+
+Right ventricular hypertrophy:
+  precision: 0.0000
+  recall: 0.0000
+  f1: 0.0000
+  auc: inf
+
+Myocardial infarction:
+  precision: 0.7727
+  recall: 0.4387
+  f1: 0.5597
+  auc: inf
+
+Left atrial abnormality:
+  precision: 0.6230
+  recall: 0.5170
+  f1: 0.5651
+  auc: inf
+
+Right atrial abnormality:
+  precision: 0.7379
+  recall: 0.7451
+  f1: 0.7415
+  auc: inf
+
+Nonspecific intraventricular conduction delay:
+  precision: 0.3902
+  recall: 0.1798
+  f1: 0.2462
+  auc: inf
+
+Atrial flutter:
+  precision: 0.5319
+  recall: 0.2632
+  f1: 0.3521
+  auc: inf
+
+Wandering atrial pacemaker:
+  precision: 0.5000
+  recall: 0.0323
+  f1: 0.0606
+  auc: inf
+
+Supraventricular tachycardia:
+  precision: 0.0000
+  recall: 0.0000
+  f1: 0.0000
+  auc: inf
+
+Junctional rhythm:
+  precision: 0.5000
+  recall: 0.0100
+  f1: 0.0196
+  auc: inf
+
+Ventricular trigeminy:
+  precision: 0.6400
+  recall: 0.2192
+  f1: 0.3265
+  auc: inf
+
+==================================================
+
+Transformer Performance:
+-----------------------
+Best Validation AUC: 0.8829
+Final Validation Loss: 0.1548
+
+Macro Averages:
+  precision: 0.4597
+  recall: 0.2753
+  f1: 0.3131
+
+Weighted Averages:
+  precision: 0.5694
+  recall: 0.3527
+  f1: 0.3948
+
+Per-Class Performance:
+
+Normal sinus rhythm:
+  precision: 0.7377
+  recall: 0.1391
+  f1: 0.2341
+  auc: inf
+
+Atrial fibrillation:
+  precision: 0.6393
+  recall: 0.5286
+  f1: 0.5787
+  auc: inf
+
+First-degree AV block:
+  precision: 0.8137
+  recall: 0.7490
+  f1: 0.7800
+  auc: inf
+
+Left bundle branch block:
+  precision: 0.6087
+  recall: 0.1818
+  f1: 0.2800
+  auc: inf
+
+Right bundle branch block:
+  precision: 0.8143
+  recall: 0.7974
+  f1: 0.8058
+  auc: inf
+
+Premature atrial contraction:
+  precision: 0.5760
+  recall: 0.5294
+  f1: 0.5517
+  auc: inf
+
+Premature ventricular contraction:
+  precision: 0.7506
+  recall: 0.8600
+  f1: 0.8016
+  auc: inf
+
+ST-segment depression:
+  precision: 0.7713
+  recall: 0.6807
+  f1: 0.7232
+  auc: inf
+
+ST-segment elevation:
+  precision: 0.8365
+  recall: 0.6962
+  f1: 0.7599
+  auc: inf
+
+T-wave abnormal:
+  precision: 0.7500
+  recall: 0.0106
+  f1: 0.0209
+  auc: inf
+
+T-wave inversion:
+  precision: 0.0000
+  recall: 0.0000
+  f1: 0.0000
+  auc: inf
+
+Left axis deviation:
+  precision: 0.4906
+  recall: 0.1016
+  f1: 0.1683
+  auc: inf
+
+Right axis deviation:
+  precision: 0.7200
+  recall: 0.0766
+  f1: 0.1385
+  auc: inf
+
+Low QRS voltages:
+  precision: 0.4681
+  recall: 0.1117
+  f1: 0.1803
+  auc: inf
+
+Sinus bradycardia:
+  precision: 0.4658
+  recall: 0.1858
+  f1: 0.2656
+  auc: inf
+
+Sinus tachycardia:
+  precision: 0.0000
+  recall: 0.0000
+  f1: 0.0000
+  auc: inf
+
+Left ventricular hypertrophy:
+  precision: 0.0000
+  recall: 0.0000
+  f1: 0.0000
+  auc: inf
+
+Right ventricular hypertrophy:
+  precision: 0.0000
+  recall: 0.0000
+  f1: 0.0000
+  auc: inf
+
+Myocardial infarction:
+  precision: 0.7340
+  recall: 0.4452
+  f1: 0.5542
+  auc: inf
+
+Left atrial abnormality:
+  precision: 0.6303
+  recall: 0.5102
+  f1: 0.5639
+  auc: inf
+
+Right atrial abnormality:
+  precision: 0.8630
+  recall: 0.6176
+  f1: 0.7200
+  auc: inf
+
+Nonspecific intraventricular conduction delay:
+  precision: 0.0000
+  recall: 0.0000
+  f1: 0.0000
+  auc: inf
+
+Atrial flutter:
+  precision: 0.7407
+  recall: 0.2105
+  f1: 0.3279
+  auc: inf
+
+Wandering atrial pacemaker:
+  precision: 0.0000
+  recall: 0.0000
+  f1: 0.0000
+  auc: inf
+
+Supraventricular tachycardia:
+  precision: 0.0000
+  recall: 0.0000
+  f1: 0.0000
+  auc: inf
+
+Junctional rhythm:
+  precision: 0.0000
+  recall: 0.0000
+  f1: 0.0000
+  auc: inf
+
+Ventricular trigeminy:
+  precision: 0.0000
+  recall: 0.0000
+  f1: 0.0000
+  auc: inf
+
+==================================================

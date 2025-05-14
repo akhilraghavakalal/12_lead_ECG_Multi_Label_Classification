@@ -1,0 +1,36 @@
+Classification Report for Transformer_Epoch_3
+==================================================
+                                               precision    recall  f1-score   support
+
+                          Normal sinus rhythm       0.00      0.00      0.00       647
+                          Atrial fibrillation       0.00      0.00      0.00       560
+                        First-degree AV block       0.00      0.00      0.00       490
+                     Left bundle branch block       0.00      0.00      0.00       462
+                    Right bundle branch block       0.00      0.00      0.00       385
+                 Premature atrial contraction       0.00      0.00      0.00       272
+            Premature ventricular contraction       0.79      0.58      0.67       350
+                        ST-segment depression       0.00      0.00      0.00       332
+                         ST-segment elevation       0.72      0.69      0.70       316
+                              T-wave abnormal       0.00      0.00      0.00       283
+                             T-wave inversion       0.00      0.00      0.00       294
+                          Left axis deviation       0.00      0.00      0.00       256
+                         Right axis deviation       0.00      0.00      0.00       235
+                             Low QRS voltages       0.00      0.00      0.00       197
+                            Sinus bradycardia       0.00      0.00      0.00       183
+                            Sinus tachycardia       0.00      0.00      0.00       198
+                 Left ventricular hypertrophy       0.00      0.00      0.00       161
+                Right ventricular hypertrophy       0.00      0.00      0.00       150
+                        Myocardial infarction       0.00      0.00      0.00       155
+                      Left atrial abnormality       0.00      0.00      0.00       147
+                     Right atrial abnormality       0.00      0.00      0.00       102
+Nonspecific intraventricular conduction delay       0.00      0.00      0.00        89
+                               Atrial flutter       0.00      0.00      0.00        95
+                   Wandering atrial pacemaker       0.00      0.00      0.00        93
+                 Supraventricular tachycardia       0.00      0.00      0.00        80
+                            Junctional rhythm       0.00      0.00      0.00       100
+                        Ventricular trigeminy       0.00      0.00      0.00        73
+
+                                    micro avg       0.75      0.06      0.12      6705
+                                    macro avg       0.06      0.05      0.05      6705
+                                 weighted avg       0.07      0.06      0.07      6705
+                                  samples avg       0.10      0.05      0.07      6705

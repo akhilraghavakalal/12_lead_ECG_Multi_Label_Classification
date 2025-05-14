@@ -1,0 +1,1278 @@
+2025-05-12 22:59:14,497 - INFO - Logging configured. Log file: D:\Thesis_Project\12_lead_ECG_Classification\Code\model_checkpoints\training.log
+2025-05-12 22:59:14,497 - INFO - Log level set to: INFO
+2025-05-12 22:59:14,498 - INFO - Starting ECG Classification Training with Enhanced Metrics...
+2025-05-12 22:59:14,498 - INFO - Using device: cuda
+2025-05-12 22:59:14,502 - INFO - CUDA device: NVIDIA GeForce RTX 4070 Laptop GPU
+2025-05-12 22:59:14,502 - INFO - Number of CUDA devices: 1
+2025-05-12 22:59:14,502 - INFO - CUDA device properties: _CudaDeviceProperties(name='NVIDIA GeForce RTX 4070 Laptop GPU', major=8, minor=9, total_memory=8187MB, multi_processor_count=36)
+2025-05-12 22:59:14,503 - INFO - 
+***************************************************
+
+ Transformer model training...
+***************************************************
+
+2025-05-12 22:59:14,765 - INFO - Initializing Wide Deep Transformer training...
+2025-05-12 22:59:31,867 - INFO - Initial batch shapes:
+2025-05-12 22:59:31,867 - INFO - Wide features: torch.Size([128, 20])
+2025-05-12 22:59:31,868 - INFO - ECG data: torch.Size([128, 12, 7500])
+2025-05-12 22:59:31,868 - INFO - Labels: torch.Size([128, 27])
+2025-05-12 23:01:08,343 - INFO - 
+
+Epoch 1/50:
+2025-05-12 23:01:08,344 - INFO - Train Loss: 0.5145
+2025-05-12 23:01:08,344 - INFO - Val Loss: 0.3336
+2025-05-12 23:01:08,344 - INFO - Val AUC: 0.5302
+2025-05-12 23:01:08,344 - INFO - 
+Detailed Metrics:
+2025-05-12 23:01:08,344 - INFO - Macro Avg - Precision: 0.0000
+2025-05-12 23:01:08,344 - INFO - Macro Avg - Recall: 0.0000
+2025-05-12 23:01:08,344 - INFO - Macro Avg - F1: 0.0000
+2025-05-12 23:01:09,769 - INFO - New best model saved with AUC: 0.5302
+2025-05-12 23:02:27,643 - INFO - 
+
+Epoch 2/50:
+2025-05-12 23:02:27,643 - INFO - Train Loss: 0.2532
+2025-05-12 23:02:27,643 - INFO - Val Loss: 0.2066
+2025-05-12 23:02:27,644 - INFO - Val AUC: 0.6542
+2025-05-12 23:02:27,644 - INFO - 
+Detailed Metrics:
+2025-05-12 23:02:27,644 - INFO - Macro Avg - Precision: 0.0000
+2025-05-12 23:02:27,644 - INFO - Macro Avg - Recall: 0.0000
+2025-05-12 23:02:27,644 - INFO - Macro Avg - F1: 0.0000
+2025-05-12 23:02:29,127 - INFO - New best model saved with AUC: 0.6542
+2025-05-12 23:03:48,324 - INFO - 
+
+Epoch 3/50:
+2025-05-12 23:03:48,324 - INFO - Train Loss: 0.1945
+2025-05-12 23:03:48,324 - INFO - Val Loss: 0.1796
+2025-05-12 23:03:48,325 - INFO - Val AUC: 0.7548
+2025-05-12 23:03:48,325 - INFO - 
+Detailed Metrics:
+2025-05-12 23:03:48,325 - INFO - Macro Avg - Precision: 0.0558
+2025-05-12 23:03:48,325 - INFO - Macro Avg - Recall: 0.0469
+2025-05-12 23:03:48,326 - INFO - Macro Avg - F1: 0.0507
+2025-05-12 23:03:49,971 - INFO - New best model saved with AUC: 0.7548
+2025-05-12 23:05:09,355 - INFO - 
+
+Epoch 4/50:
+2025-05-12 23:05:09,355 - INFO - Train Loss: 0.1753
+2025-05-12 23:05:09,356 - INFO - Val Loss: 0.1698
+2025-05-12 23:05:09,356 - INFO - Val AUC: 0.7996
+2025-05-12 23:05:09,356 - INFO - 
+Detailed Metrics:
+2025-05-12 23:05:09,356 - INFO - Macro Avg - Precision: 0.1864
+2025-05-12 23:05:09,356 - INFO - Macro Avg - Recall: 0.1038
+2025-05-12 23:05:09,356 - INFO - Macro Avg - F1: 0.1122
+2025-05-12 23:05:10,767 - INFO - New best model saved with AUC: 0.7996
+2025-05-12 23:06:30,673 - INFO - 
+
+Epoch 5/50:
+2025-05-12 23:06:30,674 - INFO - Train Loss: 0.1651
+2025-05-12 23:06:30,674 - INFO - Val Loss: 0.1585
+2025-05-12 23:06:30,674 - INFO - Val AUC: 0.8288
+2025-05-12 23:06:30,674 - INFO - 
+Detailed Metrics:
+2025-05-12 23:06:30,675 - INFO - Macro Avg - Precision: 0.2973
+2025-05-12 23:06:30,675 - INFO - Macro Avg - Recall: 0.1417
+2025-05-12 23:06:30,675 - INFO - Macro Avg - F1: 0.1642
+2025-05-12 23:06:32,101 - INFO - New best model saved with AUC: 0.8288
+2025-05-12 23:07:52,343 - INFO - 
+
+Epoch 6/50:
+2025-05-12 23:07:52,343 - INFO - Train Loss: 0.1577
+2025-05-12 23:07:52,344 - INFO - Val Loss: 0.1572
+2025-05-12 23:07:52,344 - INFO - Val AUC: 0.8360
+2025-05-12 23:07:52,345 - INFO - 
+Detailed Metrics:
+2025-05-12 23:07:52,345 - INFO - Macro Avg - Precision: 0.2786
+2025-05-12 23:07:52,345 - INFO - Macro Avg - Recall: 0.1602
+2025-05-12 23:07:52,346 - INFO - Macro Avg - F1: 0.1692
+2025-05-12 23:07:53,662 - INFO - New best model saved with AUC: 0.8360
+2025-05-12 23:09:14,545 - INFO - 
+
+Epoch 7/50:
+2025-05-12 23:09:14,545 - INFO - Train Loss: 0.1531
+2025-05-12 23:09:14,545 - INFO - Val Loss: 0.1528
+2025-05-12 23:09:14,546 - INFO - Val AUC: 0.8439
+2025-05-12 23:09:14,546 - INFO - 
+Detailed Metrics:
+2025-05-12 23:09:14,546 - INFO - Macro Avg - Precision: 0.3156
+2025-05-12 23:09:14,546 - INFO - Macro Avg - Recall: 0.1509
+2025-05-12 23:09:14,547 - INFO - Macro Avg - F1: 0.1724
+2025-05-12 23:09:15,964 - INFO - New best model saved with AUC: 0.8439
+2025-05-12 23:10:36,692 - INFO - 
+
+Epoch 8/50:
+2025-05-12 23:10:36,692 - INFO - Train Loss: 0.1509
+2025-05-12 23:10:36,692 - INFO - Val Loss: 0.1509
+2025-05-12 23:10:36,692 - INFO - Val AUC: 0.8490
+2025-05-12 23:10:36,693 - INFO - 
+Detailed Metrics:
+2025-05-12 23:10:36,693 - INFO - Macro Avg - Precision: 0.3235
+2025-05-12 23:10:36,693 - INFO - Macro Avg - Recall: 0.1713
+2025-05-12 23:10:36,693 - INFO - Macro Avg - F1: 0.1923
+2025-05-12 23:10:38,496 - INFO - New best model saved with AUC: 0.8490
+2025-05-12 23:11:59,833 - INFO - 
+
+Epoch 9/50:
+2025-05-12 23:11:59,833 - INFO - Train Loss: 0.1482
+2025-05-12 23:11:59,833 - INFO - Val Loss: 0.1474
+2025-05-12 23:11:59,833 - INFO - Val AUC: 0.8581
+2025-05-12 23:11:59,833 - INFO - 
+Detailed Metrics:
+2025-05-12 23:11:59,834 - INFO - Macro Avg - Precision: 0.3440
+2025-05-12 23:11:59,834 - INFO - Macro Avg - Recall: 0.1837
+2025-05-12 23:11:59,834 - INFO - Macro Avg - F1: 0.2080
+2025-05-12 23:12:01,221 - INFO - New best model saved with AUC: 0.8581
+2025-05-12 23:13:23,018 - INFO - 
+
+Epoch 10/50:
+2025-05-12 23:13:23,019 - INFO - Train Loss: 0.1453
+2025-05-12 23:13:23,019 - INFO - Val Loss: 0.1479
+2025-05-12 23:13:23,019 - INFO - Val AUC: 0.8582
+2025-05-12 23:13:23,019 - INFO - 
+Detailed Metrics:
+2025-05-12 23:13:23,020 - INFO - Macro Avg - Precision: 0.3822
+2025-05-12 23:13:23,020 - INFO - Macro Avg - Recall: 0.2057
+2025-05-12 23:13:23,020 - INFO - Macro Avg - F1: 0.2298
+2025-05-12 23:13:24,423 - INFO - New best model saved with AUC: 0.8582
+2025-05-12 23:14:46,422 - INFO - 
+
+Epoch 11/50:
+2025-05-12 23:14:46,422 - INFO - Train Loss: 0.1441
+2025-05-12 23:14:46,422 - INFO - Val Loss: 0.1467
+2025-05-12 23:14:46,422 - INFO - Val AUC: 0.8601
+2025-05-12 23:14:46,422 - INFO - 
+Detailed Metrics:
+2025-05-12 23:14:46,422 - INFO - Macro Avg - Precision: 0.3611
+2025-05-12 23:14:46,423 - INFO - Macro Avg - Recall: 0.1837
+2025-05-12 23:14:46,423 - INFO - Macro Avg - F1: 0.2241
+2025-05-12 23:14:47,880 - INFO - New best model saved with AUC: 0.8601
+2025-05-12 23:16:09,230 - INFO - 
+
+Epoch 12/50:
+2025-05-12 23:16:09,230 - INFO - Train Loss: 0.1413
+2025-05-12 23:16:09,231 - INFO - Val Loss: 0.1421
+2025-05-12 23:16:09,231 - INFO - Val AUC: 0.8688
+2025-05-12 23:16:09,231 - INFO - 
+Detailed Metrics:
+2025-05-12 23:16:09,232 - INFO - Macro Avg - Precision: 0.3773
+2025-05-12 23:16:09,233 - INFO - Macro Avg - Recall: 0.2228
+2025-05-12 23:16:09,233 - INFO - Macro Avg - F1: 0.2505
+2025-05-12 23:16:11,165 - INFO - New best model saved with AUC: 0.8688
+2025-05-12 23:17:33,161 - INFO - 
+
+Epoch 13/50:
+2025-05-12 23:17:33,162 - INFO - Train Loss: 0.1373
+2025-05-12 23:17:33,162 - INFO - Val Loss: 0.1408
+2025-05-12 23:17:33,163 - INFO - Val AUC: 0.8710
+2025-05-12 23:17:33,163 - INFO - 
+Detailed Metrics:
+2025-05-12 23:17:33,163 - INFO - Macro Avg - Precision: 0.4070
+2025-05-12 23:17:33,163 - INFO - Macro Avg - Recall: 0.2150
+2025-05-12 23:17:33,164 - INFO - Macro Avg - F1: 0.2439
+2025-05-12 23:17:35,118 - INFO - New best model saved with AUC: 0.8710
+2025-05-12 23:18:56,946 - INFO - 
+
+Epoch 14/50:
+2025-05-12 23:18:56,946 - INFO - Train Loss: 0.1357
+2025-05-12 23:18:56,946 - INFO - Val Loss: 0.1386
+2025-05-12 23:18:56,946 - INFO - Val AUC: 0.8735
+2025-05-12 23:18:56,946 - INFO - 
+Detailed Metrics:
+2025-05-12 23:18:56,946 - INFO - Macro Avg - Precision: 0.4488
+2025-05-12 23:18:56,948 - INFO - Macro Avg - Recall: 0.2561
+2025-05-12 23:18:56,948 - INFO - Macro Avg - F1: 0.2846
+2025-05-12 23:18:58,437 - INFO - New best model saved with AUC: 0.8735
+2025-05-12 23:20:20,516 - INFO - 
+
+Epoch 15/50:
+2025-05-12 23:20:20,516 - INFO - Train Loss: 0.1335
+2025-05-12 23:20:20,516 - INFO - Val Loss: 0.1345
+2025-05-12 23:20:20,516 - INFO - Val AUC: 0.8784
+2025-05-12 23:20:20,516 - INFO - 
+Detailed Metrics:
+2025-05-12 23:20:20,516 - INFO - Macro Avg - Precision: 0.4613
+2025-05-12 23:20:20,516 - INFO - Macro Avg - Recall: 0.2455
+2025-05-12 23:20:20,516 - INFO - Macro Avg - F1: 0.2867
+2025-05-12 23:20:21,967 - INFO - New best model saved with AUC: 0.8784
+2025-05-12 23:21:45,161 - INFO - 
+
+Epoch 16/50:
+2025-05-12 23:21:45,161 - INFO - Train Loss: 0.1312
+2025-05-12 23:21:45,162 - INFO - Val Loss: 0.1360
+2025-05-12 23:21:45,162 - INFO - Val AUC: 0.8801
+2025-05-12 23:21:45,162 - INFO - 
+Detailed Metrics:
+2025-05-12 23:21:45,162 - INFO - Macro Avg - Precision: 0.4690
+2025-05-12 23:21:45,162 - INFO - Macro Avg - Recall: 0.2777
+2025-05-12 23:21:45,162 - INFO - Macro Avg - F1: 0.3055
+2025-05-12 23:21:46,625 - INFO - New best model saved with AUC: 0.8801
+2025-05-12 23:23:09,139 - INFO - 
+
+Epoch 17/50:
+2025-05-12 23:23:09,139 - INFO - Train Loss: 0.1313
+2025-05-12 23:23:09,140 - INFO - Val Loss: 0.1345
+2025-05-12 23:23:09,140 - INFO - Val AUC: 0.8813
+2025-05-12 23:23:09,140 - INFO - 
+Detailed Metrics:
+2025-05-12 23:23:09,141 - INFO - Macro Avg - Precision: 0.4228
+2025-05-12 23:23:09,141 - INFO - Macro Avg - Recall: 0.2664
+2025-05-12 23:23:09,141 - INFO - Macro Avg - F1: 0.2920
+2025-05-12 23:23:10,596 - INFO - New best model saved with AUC: 0.8813
+2025-05-12 23:24:33,730 - INFO - 
+
+Epoch 18/50:
+2025-05-12 23:24:33,731 - INFO - Train Loss: 0.1309
+2025-05-12 23:24:33,731 - INFO - Val Loss: 0.1361
+2025-05-12 23:24:33,731 - INFO - Val AUC: 0.8781
+2025-05-12 23:24:33,731 - INFO - 
+Detailed Metrics:
+2025-05-12 23:24:33,731 - INFO - Macro Avg - Precision: 0.4052
+2025-05-12 23:24:33,733 - INFO - Macro Avg - Recall: 0.2564
+2025-05-12 23:24:33,733 - INFO - Macro Avg - F1: 0.2859
+2025-05-12 23:25:56,971 - INFO - 
+
+Epoch 19/50:
+2025-05-12 23:25:56,971 - INFO - Train Loss: 0.1291
+2025-05-12 23:25:56,971 - INFO - Val Loss: 0.1343
+2025-05-12 23:25:56,972 - INFO - Val AUC: 0.8829
+2025-05-12 23:25:56,972 - INFO - 
+Detailed Metrics:
+2025-05-12 23:25:56,972 - INFO - Macro Avg - Precision: 0.4602
+2025-05-12 23:25:56,972 - INFO - Macro Avg - Recall: 0.2756
+2025-05-12 23:25:56,972 - INFO - Macro Avg - F1: 0.3134
+2025-05-12 23:25:58,385 - INFO - New best model saved with AUC: 0.8829
+2025-05-12 23:27:21,340 - INFO - 
+
+Epoch 20/50:
+2025-05-12 23:27:21,340 - INFO - Train Loss: 0.1314
+2025-05-12 23:27:21,340 - INFO - Val Loss: 0.1380
+2025-05-12 23:27:21,341 - INFO - Val AUC: 0.8780
+2025-05-12 23:27:21,341 - INFO - 
+Detailed Metrics:
+2025-05-12 23:27:21,341 - INFO - Macro Avg - Precision: 0.4300
+2025-05-12 23:27:21,341 - INFO - Macro Avg - Recall: 0.2371
+2025-05-12 23:27:21,342 - INFO - Macro Avg - F1: 0.2638
+2025-05-12 23:28:44,527 - INFO - 
+
+Epoch 21/50:
+2025-05-12 23:28:44,527 - INFO - Train Loss: 0.1349
+2025-05-12 23:28:44,527 - INFO - Val Loss: 0.1405
+2025-05-12 23:28:44,528 - INFO - Val AUC: 0.8703
+2025-05-12 23:28:44,528 - INFO - 
+Detailed Metrics:
+2025-05-12 23:28:44,528 - INFO - Macro Avg - Precision: 0.4247
+2025-05-12 23:28:44,528 - INFO - Macro Avg - Recall: 0.2335
+2025-05-12 23:28:44,529 - INFO - Macro Avg - F1: 0.2630
+2025-05-12 23:30:07,876 - INFO - 
+
+Epoch 22/50:
+2025-05-12 23:30:07,876 - INFO - Train Loss: 0.1449
+2025-05-12 23:30:07,876 - INFO - Val Loss: 0.1438
+2025-05-12 23:30:07,876 - INFO - Val AUC: 0.8616
+2025-05-12 23:30:07,876 - INFO - 
+Detailed Metrics:
+2025-05-12 23:30:07,876 - INFO - Macro Avg - Precision: 0.4369
+2025-05-12 23:30:07,876 - INFO - Macro Avg - Recall: 0.2166
+2025-05-12 23:30:07,878 - INFO - Macro Avg - F1: 0.2450
+2025-05-12 23:31:31,887 - INFO - 
+
+Epoch 23/50:
+2025-05-12 23:31:31,887 - INFO - Train Loss: 0.1423
+2025-05-12 23:31:31,888 - INFO - Val Loss: 0.1550
+2025-05-12 23:31:31,888 - INFO - Val AUC: 0.8403
+2025-05-12 23:31:31,888 - INFO - 
+Detailed Metrics:
+2025-05-12 23:31:31,888 - INFO - Macro Avg - Precision: 0.3453
+2025-05-12 23:31:31,888 - INFO - Macro Avg - Recall: 0.1767
+2025-05-12 23:31:31,888 - INFO - Macro Avg - F1: 0.1921
+2025-05-12 23:32:55,941 - INFO - 
+
+Epoch 24/50:
+2025-05-12 23:32:55,942 - INFO - Train Loss: 0.1604
+2025-05-12 23:32:55,942 - INFO - Val Loss: 0.1548
+2025-05-12 23:32:55,942 - INFO - Val AUC: 0.8414
+2025-05-12 23:32:55,942 - INFO - 
+Detailed Metrics:
+2025-05-12 23:32:55,942 - INFO - Macro Avg - Precision: 0.3565
+2025-05-12 23:32:55,943 - INFO - Macro Avg - Recall: 0.1687
+2025-05-12 23:32:55,943 - INFO - Macro Avg - F1: 0.1955
+2025-05-12 23:32:55,944 - INFO - Early stopping triggered after 24 epochs
+2025-05-12 23:33:04,314 - INFO - 
+TRANSFORMER Training completed!
+2025-05-12 23:33:04,314 - INFO - Best validation AUC: 0.8829
+2025-05-12 23:33:04,314 - INFO - 
+Final Model Performance:
+2025-05-12 23:33:04,314 - INFO - Macro Averages:
+2025-05-12 23:33:04,315 - INFO -   precision: 0.4597
+2025-05-12 23:33:04,315 - INFO -   recall: 0.2753
+2025-05-12 23:33:04,315 - INFO -   f1: 0.3131
+2025-05-12 23:33:04,315 - INFO - 
+Weighted Averages:
+2025-05-12 23:33:04,315 - INFO -   precision: 0.5694
+2025-05-12 23:33:04,316 - INFO -   recall: 0.3527
+2025-05-12 23:33:04,316 - INFO -   f1: 0.3948
+2025-05-12 23:33:04,316 - INFO - 
+Per-Class Performance Summary:
+2025-05-12 23:33:04,316 - INFO - 
+Normal sinus rhythm:
+2025-05-12 23:33:04,316 - INFO -   precision: 0.7377
+2025-05-12 23:33:04,316 - INFO -   recall: 0.1391
+2025-05-12 23:33:04,316 - INFO -   f1: 0.2341
+2025-05-12 23:33:04,317 - INFO -   auc: inf
+2025-05-12 23:33:04,317 - INFO - 
+Atrial fibrillation:
+2025-05-12 23:33:04,317 - INFO -   precision: 0.6393
+2025-05-12 23:33:04,317 - INFO -   recall: 0.5286
+2025-05-12 23:33:04,317 - INFO -   f1: 0.5787
+2025-05-12 23:33:04,317 - INFO -   auc: inf
+2025-05-12 23:33:04,317 - INFO - 
+First-degree AV block:
+2025-05-12 23:33:04,317 - INFO -   precision: 0.8137
+2025-05-12 23:33:04,317 - INFO -   recall: 0.7490
+2025-05-12 23:33:04,317 - INFO -   f1: 0.7800
+2025-05-12 23:33:04,318 - INFO -   auc: inf
+2025-05-12 23:33:04,318 - INFO - 
+Left bundle branch block:
+2025-05-12 23:33:04,318 - INFO -   precision: 0.6087
+2025-05-12 23:33:04,318 - INFO -   recall: 0.1818
+2025-05-12 23:33:04,318 - INFO -   f1: 0.2800
+2025-05-12 23:33:04,318 - INFO -   auc: inf
+2025-05-12 23:33:04,319 - INFO - 
+Right bundle branch block:
+2025-05-12 23:33:04,319 - INFO -   precision: 0.8143
+2025-05-12 23:33:04,319 - INFO -   recall: 0.7974
+2025-05-12 23:33:04,320 - INFO -   f1: 0.8058
+2025-05-12 23:33:04,320 - INFO -   auc: inf
+2025-05-12 23:33:04,320 - INFO - 
+Premature atrial contraction:
+2025-05-12 23:33:04,320 - INFO -   precision: 0.5760
+2025-05-12 23:33:04,320 - INFO -   recall: 0.5294
+2025-05-12 23:33:04,320 - INFO -   f1: 0.5517
+2025-05-12 23:33:04,321 - INFO -   auc: inf
+2025-05-12 23:33:04,321 - INFO - 
+Premature ventricular contraction:
+2025-05-12 23:33:04,321 - INFO -   precision: 0.7506
+2025-05-12 23:33:04,321 - INFO -   recall: 0.8600
+2025-05-12 23:33:04,321 - INFO -   f1: 0.8016
+2025-05-12 23:33:04,321 - INFO -   auc: inf
+2025-05-12 23:33:04,321 - INFO - 
+ST-segment depression:
+2025-05-12 23:33:04,321 - INFO -   precision: 0.7713
+2025-05-12 23:33:04,321 - INFO -   recall: 0.6807
+2025-05-12 23:33:04,322 - INFO -   f1: 0.7232
+2025-05-12 23:33:04,322 - INFO -   auc: inf
+2025-05-12 23:33:04,322 - INFO - 
+ST-segment elevation:
+2025-05-12 23:33:04,323 - INFO -   precision: 0.8365
+2025-05-12 23:33:04,323 - INFO -   recall: 0.6962
+2025-05-12 23:33:04,323 - INFO -   f1: 0.7599
+2025-05-12 23:33:04,323 - INFO -   auc: inf
+2025-05-12 23:33:04,323 - INFO - 
+T-wave abnormal:
+2025-05-12 23:33:04,323 - INFO -   precision: 0.7500
+2025-05-12 23:33:04,324 - INFO -   recall: 0.0106
+2025-05-12 23:33:04,324 - INFO -   f1: 0.0209
+2025-05-12 23:33:04,324 - INFO -   auc: inf
+2025-05-12 23:33:04,324 - INFO - 
+T-wave inversion:
+2025-05-12 23:33:04,324 - INFO -   precision: 0.0000
+2025-05-12 23:33:04,326 - INFO -   recall: 0.0000
+2025-05-12 23:33:04,326 - INFO -   f1: 0.0000
+2025-05-12 23:33:04,326 - INFO -   auc: inf
+2025-05-12 23:33:04,326 - INFO - 
+Left axis deviation:
+2025-05-12 23:33:04,326 - INFO -   precision: 0.4906
+2025-05-12 23:33:04,327 - INFO -   recall: 0.1016
+2025-05-12 23:33:04,327 - INFO -   f1: 0.1683
+2025-05-12 23:33:04,327 - INFO -   auc: inf
+2025-05-12 23:33:04,327 - INFO - 
+Right axis deviation:
+2025-05-12 23:33:04,327 - INFO -   precision: 0.7200
+2025-05-12 23:33:04,327 - INFO -   recall: 0.0766
+2025-05-12 23:33:04,327 - INFO -   f1: 0.1385
+2025-05-12 23:33:04,327 - INFO -   auc: inf
+2025-05-12 23:33:04,327 - INFO - 
+Low QRS voltages:
+2025-05-12 23:33:04,330 - INFO -   precision: 0.4681
+2025-05-12 23:33:04,330 - INFO -   recall: 0.1117
+2025-05-12 23:33:04,330 - INFO -   f1: 0.1803
+2025-05-12 23:33:04,330 - INFO -   auc: inf
+2025-05-12 23:33:04,331 - INFO - 
+Sinus bradycardia:
+2025-05-12 23:33:04,331 - INFO -   precision: 0.4658
+2025-05-12 23:33:04,331 - INFO -   recall: 0.1858
+2025-05-12 23:33:04,331 - INFO -   f1: 0.2656
+2025-05-12 23:33:04,331 - INFO -   auc: inf
+2025-05-12 23:33:04,331 - INFO - 
+Sinus tachycardia:
+2025-05-12 23:33:04,333 - INFO -   precision: 0.0000
+2025-05-12 23:33:04,334 - INFO -   recall: 0.0000
+2025-05-12 23:33:04,334 - INFO -   f1: 0.0000
+2025-05-12 23:33:04,342 - INFO -   auc: inf
+2025-05-12 23:33:04,342 - INFO - 
+Left ventricular hypertrophy:
+2025-05-12 23:33:04,342 - INFO -   precision: 0.0000
+2025-05-12 23:33:04,343 - INFO -   recall: 0.0000
+2025-05-12 23:33:04,343 - INFO -   f1: 0.0000
+2025-05-12 23:33:04,343 - INFO -   auc: inf
+2025-05-12 23:33:04,343 - INFO - 
+Right ventricular hypertrophy:
+2025-05-12 23:33:04,343 - INFO -   precision: 0.0000
+2025-05-12 23:33:04,343 - INFO -   recall: 0.0000
+2025-05-12 23:33:04,344 - INFO -   f1: 0.0000
+2025-05-12 23:33:04,344 - INFO -   auc: inf
+2025-05-12 23:33:04,344 - INFO - 
+Myocardial infarction:
+2025-05-12 23:33:04,344 - INFO -   precision: 0.7340
+2025-05-12 23:33:04,345 - INFO -   recall: 0.4452
+2025-05-12 23:33:04,345 - INFO -   f1: 0.5542
+2025-05-12 23:33:04,345 - INFO -   auc: inf
+2025-05-12 23:33:04,345 - INFO - 
+Left atrial abnormality:
+2025-05-12 23:33:04,345 - INFO -   precision: 0.6303
+2025-05-12 23:33:04,345 - INFO -   recall: 0.5102
+2025-05-12 23:33:04,346 - INFO -   f1: 0.5639
+2025-05-12 23:33:04,346 - INFO -   auc: inf
+2025-05-12 23:33:04,346 - INFO - 
+Right atrial abnormality:
+2025-05-12 23:33:04,346 - INFO -   precision: 0.8630
+2025-05-12 23:33:04,346 - INFO -   recall: 0.6176
+2025-05-12 23:33:04,346 - INFO -   f1: 0.7200
+2025-05-12 23:33:04,346 - INFO -   auc: inf
+2025-05-12 23:33:04,346 - INFO - 
+Nonspecific intraventricular conduction delay:
+2025-05-12 23:33:04,346 - INFO -   precision: 0.0000
+2025-05-12 23:33:04,346 - INFO -   recall: 0.0000
+2025-05-12 23:33:04,347 - INFO -   f1: 0.0000
+2025-05-12 23:33:04,347 - INFO -   auc: inf
+2025-05-12 23:33:04,348 - INFO - 
+Atrial flutter:
+2025-05-12 23:33:04,348 - INFO -   precision: 0.7407
+2025-05-12 23:33:04,348 - INFO -   recall: 0.2105
+2025-05-12 23:33:04,349 - INFO -   f1: 0.3279
+2025-05-12 23:33:04,349 - INFO -   auc: inf
+2025-05-12 23:33:04,349 - INFO - 
+Wandering atrial pacemaker:
+2025-05-12 23:33:04,350 - INFO -   precision: 0.0000
+2025-05-12 23:33:04,350 - INFO -   recall: 0.0000
+2025-05-12 23:33:04,350 - INFO -   f1: 0.0000
+2025-05-12 23:33:04,350 - INFO -   auc: inf
+2025-05-12 23:33:04,351 - INFO - 
+Supraventricular tachycardia:
+2025-05-12 23:33:04,351 - INFO -   precision: 0.0000
+2025-05-12 23:33:04,352 - INFO -   recall: 0.0000
+2025-05-12 23:33:04,352 - INFO -   f1: 0.0000
+2025-05-12 23:33:04,352 - INFO -   auc: inf
+2025-05-12 23:33:04,353 - INFO - 
+Junctional rhythm:
+2025-05-12 23:33:04,353 - INFO -   precision: 0.0000
+2025-05-12 23:33:04,353 - INFO -   recall: 0.0000
+2025-05-12 23:33:04,354 - INFO -   f1: 0.0000
+2025-05-12 23:33:04,354 - INFO -   auc: inf
+2025-05-12 23:33:04,354 - INFO - 
+Ventricular trigeminy:
+2025-05-12 23:33:04,354 - INFO -   precision: 0.0000
+2025-05-12 23:33:04,354 - INFO -   recall: 0.0000
+2025-05-12 23:33:04,354 - INFO -   f1: 0.0000
+2025-05-12 23:33:04,355 - INFO -   auc: inf
+2025-05-12 23:33:05,527 - INFO - 
+***************************************************
+
+ Starting CNN-GRU model training...
+***************************************************
+
+2025-05-12 23:33:05,627 - INFO - 
+Initializing CNN-GRU model training...
+
+2025-05-12 23:33:05,627 - INFO - 
+
+Epoch 1/50
+2025-05-12 23:33:45,821 - INFO - Training Loss: 0.2095
+2025-05-12 23:34:03,825 - INFO - Validation Loss: 0.1705
+2025-05-12 23:34:03,826 - INFO - Validation AUC: 0.7962
+2025-05-12 23:34:05,211 - INFO - 
+Detailed Metrics:
+2025-05-12 23:34:05,213 - INFO - Macro Avg - Precision: 0.2102
+2025-05-12 23:34:05,213 - INFO - Macro Avg - Recall: 0.0923
+2025-05-12 23:34:05,213 - INFO - Macro Avg - F1: 0.1131
+2025-05-12 23:34:06,746 - INFO - Saved new best model!
+2025-05-12 23:34:07,004 - INFO - 
+
+Epoch 2/50
+2025-05-12 23:34:30,434 - INFO - Training Loss: 0.1632
+2025-05-12 23:34:32,698 - INFO - Validation Loss: 0.1534
+2025-05-12 23:34:32,698 - INFO - Validation AUC: 0.8397
+2025-05-12 23:34:34,071 - INFO - 
+Detailed Metrics:
+2025-05-12 23:34:34,071 - INFO - Macro Avg - Precision: 0.2821
+2025-05-12 23:34:34,072 - INFO - Macro Avg - Recall: 0.1232
+2025-05-12 23:34:34,072 - INFO - Macro Avg - F1: 0.1533
+2025-05-12 23:34:35,697 - INFO - Saved new best model!
+2025-05-12 23:34:35,881 - INFO - 
+
+Epoch 3/50
+2025-05-12 23:34:59,532 - INFO - Training Loss: 0.1495
+2025-05-12 23:35:01,748 - INFO - Validation Loss: 0.1414
+2025-05-12 23:35:01,749 - INFO - Validation AUC: 0.8657
+2025-05-12 23:35:03,329 - INFO - 
+Detailed Metrics:
+2025-05-12 23:35:03,329 - INFO - Macro Avg - Precision: 0.3867
+2025-05-12 23:35:03,329 - INFO - Macro Avg - Recall: 0.1811
+2025-05-12 23:35:03,329 - INFO - Macro Avg - F1: 0.2097
+2025-05-12 23:35:04,762 - INFO - Saved new best model!
+2025-05-12 23:35:04,947 - INFO - 
+
+Epoch 4/50
+2025-05-12 23:35:29,290 - INFO - Training Loss: 0.1387
+2025-05-12 23:35:31,649 - INFO - Validation Loss: 0.1344
+2025-05-12 23:35:31,650 - INFO - Validation AUC: 0.8806
+2025-05-12 23:35:33,108 - INFO - 
+Detailed Metrics:
+2025-05-12 23:35:33,109 - INFO - Macro Avg - Precision: 0.4050
+2025-05-12 23:35:33,109 - INFO - Macro Avg - Recall: 0.2188
+2025-05-12 23:35:33,110 - INFO - Macro Avg - F1: 0.2535
+2025-05-12 23:35:34,465 - INFO - Saved new best model!
+2025-05-12 23:35:34,624 - INFO - 
+
+Epoch 5/50
+2025-05-12 23:35:59,393 - INFO - Training Loss: 0.1328
+2025-05-12 23:36:01,597 - INFO - Validation Loss: 0.1324
+2025-05-12 23:36:01,598 - INFO - Validation AUC: 0.8907
+2025-05-12 23:36:02,776 - INFO - 
+Detailed Metrics:
+2025-05-12 23:36:02,776 - INFO - Macro Avg - Precision: 0.3872
+2025-05-12 23:36:02,776 - INFO - Macro Avg - Recall: 0.2259
+2025-05-12 23:36:02,776 - INFO - Macro Avg - F1: 0.2557
+2025-05-12 23:36:04,031 - INFO - Saved new best model!
+2025-05-12 23:36:04,182 - INFO - 
+
+Epoch 6/50
+2025-05-12 23:36:28,008 - INFO - Training Loss: 0.1273
+2025-05-12 23:36:55,796 - INFO - Validation Loss: 0.1269
+2025-05-12 23:36:55,797 - INFO - Validation AUC: 0.9006
+2025-05-12 23:36:57,213 - INFO - 
+Detailed Metrics:
+2025-05-12 23:36:57,213 - INFO - Macro Avg - Precision: 0.4758
+2025-05-12 23:36:57,213 - INFO - Macro Avg - Recall: 0.2684
+2025-05-12 23:36:57,213 - INFO - Macro Avg - F1: 0.3009
+2025-05-12 23:36:58,682 - INFO - Saved new best model!
+2025-05-12 23:36:58,852 - INFO - 
+
+Epoch 7/50
+2025-05-12 23:45:48,657 - INFO - Training Loss: 0.1223
+2025-05-12 23:45:50,320 - INFO - Validation Loss: 0.1244
+2025-05-12 23:45:50,321 - INFO - Validation AUC: 0.9052
+2025-05-12 23:45:51,378 - INFO - 
+Detailed Metrics:
+2025-05-12 23:45:51,378 - INFO - Macro Avg - Precision: 0.5298
+2025-05-12 23:45:51,378 - INFO - Macro Avg - Recall: 0.3067
+2025-05-12 23:45:51,378 - INFO - Macro Avg - F1: 0.3450
+2025-05-12 23:45:52,718 - INFO - Saved new best model!
+2025-05-12 23:45:52,870 - INFO - 
+
+Epoch 8/50
+2025-05-12 23:46:10,452 - INFO - Training Loss: 0.1185
+2025-05-12 23:46:12,137 - INFO - Validation Loss: 0.1214
+2025-05-12 23:46:12,138 - INFO - Validation AUC: 0.9102
+2025-05-12 23:46:13,188 - INFO - 
+Detailed Metrics:
+2025-05-12 23:46:13,188 - INFO - Macro Avg - Precision: 0.5963
+2025-05-12 23:46:13,188 - INFO - Macro Avg - Recall: 0.3132
+2025-05-12 23:46:13,189 - INFO - Macro Avg - F1: 0.3635
+2025-05-12 23:46:14,481 - INFO - Saved new best model!
+2025-05-12 23:46:14,624 - INFO - 
+
+Epoch 9/50
+2025-05-12 23:46:31,997 - INFO - Training Loss: 0.1147
+2025-05-12 23:46:33,716 - INFO - Validation Loss: 0.1215
+2025-05-12 23:46:33,716 - INFO - Validation AUC: 0.9114
+2025-05-12 23:46:34,896 - INFO - 
+Detailed Metrics:
+2025-05-12 23:46:34,896 - INFO - Macro Avg - Precision: 0.5733
+2025-05-12 23:46:34,897 - INFO - Macro Avg - Recall: 0.3267
+2025-05-12 23:46:34,898 - INFO - Macro Avg - F1: 0.3792
+2025-05-12 23:46:36,199 - INFO - Saved new best model!
+2025-05-12 23:46:36,337 - INFO - 
+
+Epoch 10/50
+2025-05-12 23:46:54,012 - INFO - Training Loss: 0.1102
+2025-05-12 23:46:55,728 - INFO - Validation Loss: 0.1224
+2025-05-12 23:46:55,728 - INFO - Validation AUC: 0.9139
+2025-05-12 23:46:56,798 - INFO - 
+Detailed Metrics:
+2025-05-12 23:46:56,798 - INFO - Macro Avg - Precision: 0.5282
+2025-05-12 23:46:56,798 - INFO - Macro Avg - Recall: 0.3198
+2025-05-12 23:46:56,799 - INFO - Macro Avg - F1: 0.3623
+2025-05-12 23:46:58,066 - INFO - Saved new best model!
+2025-05-12 23:46:58,255 - INFO - 
+
+Epoch 11/50
+2025-05-12 23:47:16,212 - INFO - Training Loss: 0.1070
+2025-05-12 23:47:17,950 - INFO - Validation Loss: 0.1185
+2025-05-12 23:47:17,951 - INFO - Validation AUC: 0.9140
+2025-05-12 23:47:19,445 - INFO - 
+Detailed Metrics:
+2025-05-12 23:47:19,445 - INFO - Macro Avg - Precision: 0.6179
+2025-05-12 23:47:19,446 - INFO - Macro Avg - Recall: 0.3441
+2025-05-12 23:47:19,446 - INFO - Macro Avg - F1: 0.4064
+2025-05-12 23:47:20,701 - INFO - Saved new best model!
+2025-05-12 23:47:20,886 - INFO - 
+
+Epoch 12/50
+2025-05-12 23:47:39,763 - INFO - Training Loss: 0.1024
+2025-05-12 23:47:41,518 - INFO - Validation Loss: 0.1199
+2025-05-12 23:47:41,518 - INFO - Validation AUC: 0.9167
+2025-05-12 23:47:42,817 - INFO - 
+Detailed Metrics:
+2025-05-12 23:47:42,818 - INFO - Macro Avg - Precision: 0.5766
+2025-05-12 23:47:42,818 - INFO - Macro Avg - Recall: 0.3696
+2025-05-12 23:47:42,819 - INFO - Macro Avg - F1: 0.4190
+2025-05-12 23:47:44,175 - INFO - Saved new best model!
+2025-05-12 23:47:44,452 - INFO - 
+
+Epoch 13/50
+2025-05-12 23:48:02,921 - INFO - Training Loss: 0.0985
+2025-05-12 23:48:04,681 - INFO - Validation Loss: 0.1203
+2025-05-12 23:48:04,681 - INFO - Validation AUC: 0.9169
+2025-05-12 23:48:05,864 - INFO - 
+Detailed Metrics:
+2025-05-12 23:48:05,864 - INFO - Macro Avg - Precision: 0.5555
+2025-05-12 23:48:05,864 - INFO - Macro Avg - Recall: 0.3788
+2025-05-12 23:48:05,865 - INFO - Macro Avg - F1: 0.4254
+2025-05-12 23:48:07,059 - INFO - Saved new best model!
+2025-05-12 23:48:07,236 - INFO - 
+
+Epoch 14/50
+2025-05-12 23:48:25,485 - INFO - Training Loss: 0.0938
+2025-05-12 23:48:27,281 - INFO - Validation Loss: 0.1207
+2025-05-12 23:48:27,282 - INFO - Validation AUC: 0.9154
+2025-05-12 23:48:28,562 - INFO - 
+Detailed Metrics:
+2025-05-12 23:48:28,563 - INFO - Macro Avg - Precision: 0.5981
+2025-05-12 23:48:28,563 - INFO - Macro Avg - Recall: 0.3823
+2025-05-12 23:48:28,564 - INFO - Macro Avg - F1: 0.4345
+2025-05-12 23:48:28,734 - INFO - 
+
+Epoch 15/50
+2025-05-12 23:48:47,002 - INFO - Training Loss: 0.0888
+2025-05-12 23:48:48,797 - INFO - Validation Loss: 0.1216
+2025-05-12 23:48:48,798 - INFO - Validation AUC: 0.9171
+2025-05-12 23:48:50,281 - INFO - 
+Detailed Metrics:
+2025-05-12 23:48:50,282 - INFO - Macro Avg - Precision: 0.5854
+2025-05-12 23:48:50,282 - INFO - Macro Avg - Recall: 0.3917
+2025-05-12 23:48:50,282 - INFO - Macro Avg - F1: 0.4402
+2025-05-12 23:48:51,584 - INFO - Saved new best model!
+2025-05-12 23:48:51,782 - INFO - 
+
+Epoch 16/50
+2025-05-12 23:49:10,392 - INFO - Training Loss: 0.0841
+2025-05-12 23:49:12,248 - INFO - Validation Loss: 0.1254
+2025-05-12 23:49:12,249 - INFO - Validation AUC: 0.9158
+2025-05-12 23:49:13,654 - INFO - 
+Detailed Metrics:
+2025-05-12 23:49:13,654 - INFO - Macro Avg - Precision: 0.6103
+2025-05-12 23:49:13,654 - INFO - Macro Avg - Recall: 0.4017
+2025-05-12 23:49:13,655 - INFO - Macro Avg - F1: 0.4611
+2025-05-12 23:49:13,849 - INFO - 
+
+Epoch 17/50
+2025-05-12 23:49:32,883 - INFO - Training Loss: 0.0790
+2025-05-12 23:49:34,741 - INFO - Validation Loss: 0.1275
+2025-05-12 23:49:34,741 - INFO - Validation AUC: 0.9154
+2025-05-12 23:49:36,233 - INFO - 
+Detailed Metrics:
+2025-05-12 23:49:36,233 - INFO - Macro Avg - Precision: 0.5763
+2025-05-12 23:49:36,234 - INFO - Macro Avg - Recall: 0.4164
+2025-05-12 23:49:36,234 - INFO - Macro Avg - F1: 0.4600
+2025-05-12 23:49:36,426 - INFO - 
+
+Epoch 18/50
+2025-05-12 23:49:55,427 - INFO - Training Loss: 0.0654
+2025-05-12 23:49:57,309 - INFO - Validation Loss: 0.1333
+2025-05-12 23:49:57,310 - INFO - Validation AUC: 0.9149
+2025-05-12 23:49:58,718 - INFO - 
+Detailed Metrics:
+2025-05-12 23:49:58,719 - INFO - Macro Avg - Precision: 0.5844
+2025-05-12 23:49:58,719 - INFO - Macro Avg - Recall: 0.4332
+2025-05-12 23:49:58,720 - INFO - Macro Avg - F1: 0.4800
+2025-05-12 23:49:58,945 - INFO - 
+
+Epoch 19/50
+2025-05-12 23:50:17,778 - INFO - Training Loss: 0.0583
+2025-05-12 23:50:19,785 - INFO - Validation Loss: 0.1382
+2025-05-12 23:50:19,786 - INFO - Validation AUC: 0.9130
+2025-05-12 23:50:21,214 - INFO - 
+Detailed Metrics:
+2025-05-12 23:50:21,214 - INFO - Macro Avg - Precision: 0.6383
+2025-05-12 23:50:21,214 - INFO - Macro Avg - Recall: 0.4340
+2025-05-12 23:50:21,214 - INFO - Macro Avg - F1: 0.4807
+2025-05-12 23:50:21,440 - INFO - 
+
+Epoch 20/50
+2025-05-12 23:50:40,840 - INFO - Training Loss: 0.0537
+2025-05-12 23:50:43,292 - INFO - Validation Loss: 0.1434
+2025-05-12 23:50:43,293 - INFO - Validation AUC: 0.9112
+2025-05-12 23:50:44,921 - INFO - 
+Detailed Metrics:
+2025-05-12 23:50:44,921 - INFO - Macro Avg - Precision: 0.5741
+2025-05-12 23:50:44,922 - INFO - Macro Avg - Recall: 0.4381
+2025-05-12 23:50:44,922 - INFO - Macro Avg - F1: 0.4841
+2025-05-12 23:50:44,923 - INFO - Early stopping triggered after 20 epochs!
+2025-05-12 23:50:48,925 - INFO - 
+CNN_GRU Training completed!
+2025-05-12 23:50:48,925 - INFO - Best validation AUC: 0.9171
+2025-05-12 23:50:48,926 - INFO - 
+Final Model Performance:
+2025-05-12 23:50:48,926 - INFO - Macro Averages:
+2025-05-12 23:50:48,927 - INFO -   precision: 0.5854
+2025-05-12 23:50:48,927 - INFO -   recall: 0.3917
+2025-05-12 23:50:48,928 - INFO -   f1: 0.4402
+2025-05-12 23:50:48,928 - INFO - 
+Weighted Averages:
+2025-05-12 23:50:48,928 - INFO -   precision: 0.6427
+2025-05-12 23:50:48,929 - INFO -   recall: 0.4658
+2025-05-12 23:50:48,929 - INFO -   f1: 0.5143
+2025-05-12 23:50:48,929 - INFO - 
+Per-Class Performance Summary:
+2025-05-12 23:50:48,929 - INFO - 
+Normal sinus rhythm:
+2025-05-12 23:50:48,929 - INFO -   precision: 0.5973
+2025-05-12 23:50:48,930 - INFO -   recall: 0.2040
+2025-05-12 23:50:48,930 - INFO -   f1: 0.3041
+2025-05-12 23:50:48,930 - INFO -   auc: inf
+2025-05-12 23:50:48,930 - INFO - 
+Atrial fibrillation:
+2025-05-12 23:50:48,930 - INFO -   precision: 0.7607
+2025-05-12 23:50:48,931 - INFO -   recall: 0.5732
+2025-05-12 23:50:48,931 - INFO -   f1: 0.6538
+2025-05-12 23:50:48,931 - INFO -   auc: inf
+2025-05-12 23:50:48,931 - INFO - 
+First-degree AV block:
+2025-05-12 23:50:48,931 - INFO -   precision: 0.7970
+2025-05-12 23:50:48,931 - INFO -   recall: 0.8735
+2025-05-12 23:50:48,932 - INFO -   f1: 0.8335
+2025-05-12 23:50:48,932 - INFO -   auc: inf
+2025-05-12 23:50:48,932 - INFO - 
+Left bundle branch block:
+2025-05-12 23:50:48,932 - INFO -   precision: 0.5848
+2025-05-12 23:50:48,932 - INFO -   recall: 0.3658
+2025-05-12 23:50:48,933 - INFO -   f1: 0.4501
+2025-05-12 23:50:48,933 - INFO -   auc: inf
+2025-05-12 23:50:48,933 - INFO - 
+Right bundle branch block:
+2025-05-12 23:50:48,933 - INFO -   precision: 0.8587
+2025-05-12 23:50:48,933 - INFO -   recall: 0.8208
+2025-05-12 23:50:48,933 - INFO -   f1: 0.8393
+2025-05-12 23:50:48,934 - INFO -   auc: inf
+2025-05-12 23:50:48,934 - INFO - 
+Premature atrial contraction:
+2025-05-12 23:50:48,934 - INFO -   precision: 0.5823
+2025-05-12 23:50:48,934 - INFO -   recall: 0.6765
+2025-05-12 23:50:48,934 - INFO -   f1: 0.6259
+2025-05-12 23:50:48,934 - INFO -   auc: inf
+2025-05-12 23:50:48,934 - INFO - 
+Premature ventricular contraction:
+2025-05-12 23:50:48,934 - INFO -   precision: 0.8000
+2025-05-12 23:50:48,935 - INFO -   recall: 0.8686
+2025-05-12 23:50:48,935 - INFO -   f1: 0.8329
+2025-05-12 23:50:48,935 - INFO -   auc: inf
+2025-05-12 23:50:48,935 - INFO - 
+ST-segment depression:
+2025-05-12 23:50:48,935 - INFO -   precision: 0.7812
+2025-05-12 23:50:48,936 - INFO -   recall: 0.7530
+2025-05-12 23:50:48,936 - INFO -   f1: 0.7669
+2025-05-12 23:50:48,937 - INFO -   auc: inf
+2025-05-12 23:50:48,937 - INFO - 
+ST-segment elevation:
+2025-05-12 23:50:48,938 - INFO -   precision: 0.8399
+2025-05-12 23:50:48,938 - INFO -   recall: 0.7468
+2025-05-12 23:50:48,938 - INFO -   f1: 0.7906
+2025-05-12 23:50:48,938 - INFO -   auc: inf
+2025-05-12 23:50:48,939 - INFO - 
+T-wave abnormal:
+2025-05-12 23:50:48,939 - INFO -   precision: 0.5758
+2025-05-12 23:50:48,939 - INFO -   recall: 0.2014
+2025-05-12 23:50:48,939 - INFO -   f1: 0.2984
+2025-05-12 23:50:48,939 - INFO -   auc: inf
+2025-05-12 23:50:48,940 - INFO - 
+T-wave inversion:
+2025-05-12 23:50:48,940 - INFO -   precision: 0.5429
+2025-05-12 23:50:48,940 - INFO -   recall: 0.1293
+2025-05-12 23:50:48,940 - INFO -   f1: 0.2088
+2025-05-12 23:50:48,940 - INFO -   auc: inf
+2025-05-12 23:50:48,941 - INFO - 
+Left axis deviation:
+2025-05-12 23:50:48,941 - INFO -   precision: 0.6135
+2025-05-12 23:50:48,941 - INFO -   recall: 0.3906
+2025-05-12 23:50:48,941 - INFO -   f1: 0.4773
+2025-05-12 23:50:48,941 - INFO -   auc: inf
+2025-05-12 23:50:48,941 - INFO - 
+Right axis deviation:
+2025-05-12 23:50:48,941 - INFO -   precision: 0.6436
+2025-05-12 23:50:48,942 - INFO -   recall: 0.2766
+2025-05-12 23:50:48,942 - INFO -   f1: 0.3869
+2025-05-12 23:50:48,942 - INFO -   auc: inf
+2025-05-12 23:50:48,942 - INFO - 
+Low QRS voltages:
+2025-05-12 23:50:48,942 - INFO -   precision: 0.5424
+2025-05-12 23:50:48,942 - INFO -   recall: 0.4873
+2025-05-12 23:50:48,942 - INFO -   f1: 0.5134
+2025-05-12 23:50:48,943 - INFO -   auc: inf
+2025-05-12 23:50:48,943 - INFO - 
+Sinus bradycardia:
+2025-05-12 23:50:48,944 - INFO -   precision: 0.5603
+2025-05-12 23:50:48,945 - INFO -   recall: 0.4317
+2025-05-12 23:50:48,945 - INFO -   f1: 0.4877
+2025-05-12 23:50:48,945 - INFO -   auc: inf
+2025-05-12 23:50:48,946 - INFO - 
+Sinus tachycardia:
+2025-05-12 23:50:48,946 - INFO -   precision: 0.5758
+2025-05-12 23:50:48,946 - INFO -   recall: 0.1919
+2025-05-12 23:50:48,946 - INFO -   f1: 0.2879
+2025-05-12 23:50:48,946 - INFO -   auc: inf
+2025-05-12 23:50:48,947 - INFO - 
+Left ventricular hypertrophy:
+2025-05-12 23:50:48,947 - INFO -   precision: 0.4531
+2025-05-12 23:50:48,947 - INFO -   recall: 0.1801
+2025-05-12 23:50:48,947 - INFO -   f1: 0.2578
+2025-05-12 23:50:48,947 - INFO -   auc: inf
+2025-05-12 23:50:48,948 - INFO - 
+Right ventricular hypertrophy:
+2025-05-12 23:50:48,948 - INFO -   precision: 0.0000
+2025-05-12 23:50:48,948 - INFO -   recall: 0.0000
+2025-05-12 23:50:48,948 - INFO -   f1: 0.0000
+2025-05-12 23:50:48,949 - INFO -   auc: inf
+2025-05-12 23:50:48,949 - INFO - 
+Myocardial infarction:
+2025-05-12 23:50:48,949 - INFO -   precision: 0.7727
+2025-05-12 23:50:48,950 - INFO -   recall: 0.4387
+2025-05-12 23:50:48,950 - INFO -   f1: 0.5597
+2025-05-12 23:50:48,950 - INFO -   auc: inf
+2025-05-12 23:50:48,950 - INFO - 
+Left atrial abnormality:
+2025-05-12 23:50:48,950 - INFO -   precision: 0.6230
+2025-05-12 23:50:48,951 - INFO -   recall: 0.5170
+2025-05-12 23:50:48,951 - INFO -   f1: 0.5651
+2025-05-12 23:50:48,951 - INFO -   auc: inf
+2025-05-12 23:50:48,951 - INFO - 
+Right atrial abnormality:
+2025-05-12 23:50:48,952 - INFO -   precision: 0.7379
+2025-05-12 23:50:48,952 - INFO -   recall: 0.7451
+2025-05-12 23:50:48,952 - INFO -   f1: 0.7415
+2025-05-12 23:50:48,953 - INFO -   auc: inf
+2025-05-12 23:50:48,953 - INFO - 
+Nonspecific intraventricular conduction delay:
+2025-05-12 23:50:48,953 - INFO -   precision: 0.3902
+2025-05-12 23:50:48,953 - INFO -   recall: 0.1798
+2025-05-12 23:50:48,953 - INFO -   f1: 0.2462
+2025-05-12 23:50:48,953 - INFO -   auc: inf
+2025-05-12 23:50:48,954 - INFO - 
+Atrial flutter:
+2025-05-12 23:50:48,954 - INFO -   precision: 0.5319
+2025-05-12 23:50:48,954 - INFO -   recall: 0.2632
+2025-05-12 23:50:48,954 - INFO -   f1: 0.3521
+2025-05-12 23:50:48,955 - INFO -   auc: inf
+2025-05-12 23:50:48,955 - INFO - 
+Wandering atrial pacemaker:
+2025-05-12 23:50:48,956 - INFO -   precision: 0.5000
+2025-05-12 23:50:48,956 - INFO -   recall: 0.0323
+2025-05-12 23:50:48,956 - INFO -   f1: 0.0606
+2025-05-12 23:50:48,957 - INFO -   auc: inf
+2025-05-12 23:50:48,957 - INFO - 
+Supraventricular tachycardia:
+2025-05-12 23:50:48,957 - INFO -   precision: 0.0000
+2025-05-12 23:50:48,957 - INFO -   recall: 0.0000
+2025-05-12 23:50:48,958 - INFO -   f1: 0.0000
+2025-05-12 23:50:48,958 - INFO -   auc: inf
+2025-05-12 23:50:48,958 - INFO - 
+Junctional rhythm:
+2025-05-12 23:50:48,958 - INFO -   precision: 0.5000
+2025-05-12 23:50:48,958 - INFO -   recall: 0.0100
+2025-05-12 23:50:48,958 - INFO -   f1: 0.0196
+2025-05-12 23:50:48,959 - INFO -   auc: inf
+2025-05-12 23:50:48,959 - INFO - 
+Ventricular trigeminy:
+2025-05-12 23:50:48,959 - INFO -   precision: 0.6400
+2025-05-12 23:50:48,959 - INFO -   recall: 0.2192
+2025-05-12 23:50:48,959 - INFO -   f1: 0.3265
+2025-05-12 23:50:48,959 - INFO -   auc: inf
+2025-05-12 23:50:50,101 - INFO - 
+***************************************************
+
+ Generating comprehensive model comparison...
+***************************************************
+
+2025-05-12 23:50:51,716 - INFO - 
+Model Comparison Results:
+2025-05-12 23:50:51,716 - INFO - Model Comparison Report
+=====================
+
+
+CNN-GRU Performance:
+-------------------
+Best Validation AUC: 0.9171
+Final Validation Loss: 0.1434
+
+Macro Averages:
+  precision: 0.5854
+  recall: 0.3917
+  f1: 0.4402
+
+Weighted Averages:
+  precision: 0.6427
+  recall: 0.4658
+  f1: 0.5143
+
+Per-Class Performance:
+
+Normal sinus rhythm:
+  precision: 0.5973
+  recall: 0.2040
+  f1: 0.3041
+  auc: inf
+
+Atrial fibrillation:
+  precision: 0.7607
+  recall: 0.5732
+  f1: 0.6538
+  auc: inf
+
+First-degree AV block:
+  precision: 0.7970
+  recall: 0.8735
+  f1: 0.8335
+  auc: inf
+
+Left bundle branch block:
+  precision: 0.5848
+  recall: 0.3658
+  f1: 0.4501
+  auc: inf
+
+Right bundle branch block:
+  precision: 0.8587
+  recall: 0.8208
+  f1: 0.8393
+  auc: inf
+
+Premature atrial contraction:
+  precision: 0.5823
+  recall: 0.6765
+  f1: 0.6259
+  auc: inf
+
+Premature ventricular contraction:
+  precision: 0.8000
+  recall: 0.8686
+  f1: 0.8329
+  auc: inf
+
+ST-segment depression:
+  precision: 0.7812
+  recall: 0.7530
+  f1: 0.7669
+  auc: inf
+
+ST-segment elevation:
+  precision: 0.8399
+  recall: 0.7468
+  f1: 0.7906
+  auc: inf
+
+T-wave abnormal:
+  precision: 0.5758
+  recall: 0.2014
+  f1: 0.2984
+  auc: inf
+
+T-wave inversion:
+  precision: 0.5429
+  recall: 0.1293
+  f1: 0.2088
+  auc: inf
+
+Left axis deviation:
+  precision: 0.6135
+  recall: 0.3906
+  f1: 0.4773
+  auc: inf
+
+Right axis deviation:
+  precision: 0.6436
+  recall: 0.2766
+  f1: 0.3869
+  auc: inf
+
+Low QRS voltages:
+  precision: 0.5424
+  recall: 0.4873
+  f1: 0.5134
+  auc: inf
+
+Sinus bradycardia:
+  precision: 0.5603
+  recall: 0.4317
+  f1: 0.4877
+  auc: inf
+
+Sinus tachycardia:
+  precision: 0.5758
+  recall: 0.1919
+  f1: 0.2879
+  auc: inf
+
+Left ventricular hypertrophy:
+  precision: 0.4531
+  recall: 0.1801
+  f1: 0.2578
+  auc: inf
+
+Right ventricular hypertrophy:
+  precision: 0.0000
+  recall: 0.0000
+  f1: 0.0000
+  auc: inf
+
+Myocardial infarction:
+  precision: 0.7727
+  recall: 0.4387
+  f1: 0.5597
+  auc: inf
+
+Left atrial abnormality:
+  precision: 0.6230
+  recall: 0.5170
+  f1: 0.5651
+  auc: inf
+
+Right atrial abnormality:
+  precision: 0.7379
+  recall: 0.7451
+  f1: 0.7415
+  auc: inf
+
+Nonspecific intraventricular conduction delay:
+  precision: 0.3902
+  recall: 0.1798
+  f1: 0.2462
+  auc: inf
+
+Atrial flutter:
+  precision: 0.5319
+  recall: 0.2632
+  f1: 0.3521
+  auc: inf
+
+Wandering atrial pacemaker:
+  precision: 0.5000
+  recall: 0.0323
+  f1: 0.0606
+  auc: inf
+
+Supraventricular tachycardia:
+  precision: 0.0000
+  recall: 0.0000
+  f1: 0.0000
+  auc: inf
+
+Junctional rhythm:
+  precision: 0.5000
+  recall: 0.0100
+  f1: 0.0196
+  auc: inf
+
+Ventricular trigeminy:
+  precision: 0.6400
+  recall: 0.2192
+  f1: 0.3265
+  auc: inf
+
+==================================================
+
+Transformer Performance:
+-----------------------
+Best Validation AUC: 0.8829
+Final Validation Loss: 0.1548
+
+Macro Averages:
+  precision: 0.4597
+  recall: 0.2753
+  f1: 0.3131
+
+Weighted Averages:
+  precision: 0.5694
+  recall: 0.3527
+  f1: 0.3948
+
+Per-Class Performance:
+
+Normal sinus rhythm:
+  precision: 0.7377
+  recall: 0.1391
+  f1: 0.2341
+  auc: inf
+
+Atrial fibrillation:
+  precision: 0.6393
+  recall: 0.5286
+  f1: 0.5787
+  auc: inf
+
+First-degree AV block:
+  precision: 0.8137
+  recall: 0.7490
+  f1: 0.7800
+  auc: inf
+
+Left bundle branch block:
+  precision: 0.6087
+  recall: 0.1818
+  f1: 0.2800
+  auc: inf
+
+Right bundle branch block:
+  precision: 0.8143
+  recall: 0.7974
+  f1: 0.8058
+  auc: inf
+
+Premature atrial contraction:
+  precision: 0.5760
+  recall: 0.5294
+  f1: 0.5517
+  auc: inf
+
+Premature ventricular contraction:
+  precision: 0.7506
+  recall: 0.8600
+  f1: 0.8016
+  auc: inf
+
+ST-segment depression:
+  precision: 0.7713
+  recall: 0.6807
+  f1: 0.7232
+  auc: inf
+
+ST-segment elevation:
+  precision: 0.8365
+  recall: 0.6962
+  f1: 0.7599
+  auc: inf
+
+T-wave abnormal:
+  precision: 0.7500
+  recall: 0.0106
+  f1: 0.0209
+  auc: inf
+
+T-wave inversion:
+  precision: 0.0000
+  recall: 0.0000
+  f1: 0.0000
+  auc: inf
+
+Left axis deviation:
+  precision: 0.4906
+  recall: 0.1016
+  f1: 0.1683
+  auc: inf
+
+Right axis deviation:
+  precision: 0.7200
+  recall: 0.0766
+  f1: 0.1385
+  auc: inf
+
+Low QRS voltages:
+  precision: 0.4681
+  recall: 0.1117
+  f1: 0.1803
+  auc: inf
+
+Sinus bradycardia:
+  precision: 0.4658
+  recall: 0.1858
+  f1: 0.2656
+  auc: inf
+
+Sinus tachycardia:
+  precision: 0.0000
+  recall: 0.0000
+  f1: 0.0000
+  auc: inf
+
+Left ventricular hypertrophy:
+  precision: 0.0000
+  recall: 0.0000
+  f1: 0.0000
+  auc: inf
+
+Right ventricular hypertrophy:
+  precision: 0.0000
+  recall: 0.0000
+  f1: 0.0000
+  auc: inf
+
+Myocardial infarction:
+  precision: 0.7340
+  recall: 0.4452
+  f1: 0.5542
+  auc: inf
+
+Left atrial abnormality:
+  precision: 0.6303
+  recall: 0.5102
+  f1: 0.5639
+  auc: inf
+
+Right atrial abnormality:
+  precision: 0.8630
+  recall: 0.6176
+  f1: 0.7200
+  auc: inf
+
+Nonspecific intraventricular conduction delay:
+  precision: 0.0000
+  recall: 0.0000
+  f1: 0.0000
+  auc: inf
+
+Atrial flutter:
+  precision: 0.7407
+  recall: 0.2105
+  f1: 0.3279
+  auc: inf
+
+Wandering atrial pacemaker:
+  precision: 0.0000
+  recall: 0.0000
+  f1: 0.0000
+  auc: inf
+
+Supraventricular tachycardia:
+  precision: 0.0000
+  recall: 0.0000
+  f1: 0.0000
+  auc: inf
+
+Junctional rhythm:
+  precision: 0.0000
+  recall: 0.0000
+  f1: 0.0000
+  auc: inf
+
+Ventricular trigeminy:
+  precision: 0.0000
+  recall: 0.0000
+  f1: 0.0000
+  auc: inf
+
+==================================================
+
+2025-05-12 23:50:51,723 - INFO - 
+Training completed successfully!
+2025-05-12 23:50:51,820 - INFO - Cleanup completed

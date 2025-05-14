@@ -1,0 +1,88 @@
+python main.py --input_dir path/to/original_data --output_dir path/to/processed_data --visualize
+python main.py --input_dir path/to/original_data --output_dir path/to/processed_data
+
+
+
+
+python main.py --input_dir path/to/original_data --output_dir path/to/processed_data --final_data_dir path/to/final_data
+
+python main.py --input_dir "D:\Thesis_Project\12_lead_ECG_Classification\data\original_data" --output_dir "D:\Thesis_Project\12_lead_ECG_Classification\data\processed_data" --final_data_dir "D:\Thesis_Project\12_lead_ECG_Classification\data\final_data"
+
+
+
+python main.py --input_dir "D:\Thesis_Project\12_lead_ECG_Classification\data\original_data" --output_dir "D:\Thesis_Project\12_lead_ECG_Classification\data\processed_data" --final_data_dir "D:\Thesis_Project\12_lead_ECG_Classification\data\final_data"  --visualize
+
+
+=================
+
+python main.py --input_dir "D:\Thesis_Project\12_lead_ECG_Classification\Code\data\original_data" --output_dir "D:\Thesis_Project\12_lead_ECG_Classification\Code\data\processed_data" --final_data_dir "D:\Thesis_Project\12_lead_ECG_Classification\Code\data\final_data"  --visualize
+
+=========
+python main.py --input_dir "D:\Thesis_Project\12_lead_ECG_Classification\Code\data\original_data" --output_dir "D:\Thesis_Project\12_lead_ECG_Classification\Code\data\processed_data" --final_data_dir "D:\Thesis_Project\12_lead_ECG_Classification\Code\data\final_data" --model_dir "D:\Thesis_Project\12_lead_ECG_Classification\Code\model_checkpoints" --batch_size 32 --num_epochs 50 --patience 5 --lr 0.001 --visualize
+
+==============  Force preprocess
+
+python main.py --input_dir "D:\Thesis_Project\12_lead_ECG_Classification\Code\data\original_data" --output_dir "D:\Thesis_Project\12_lead_ECG_Classification\Code\data\processed_data" --final_data_dir "D:\Thesis_Project\12_lead_ECG_Classification\Code\data\final_data" --model_dir "D:\Thesis_Project\12_lead_ECG_Classification\Code\model_checkpoints" --batch_size 32 --num_epochs 50 --patience 5 --lr 0.001 --visualize --force_preprocess
+
+====================
+
+python main.py --input_dir "D:\Thesis_Project\12_lead_ECG_Classification\Code\data\original_data" --output_dir "D:\Thesis_Project\12_lead_ECG_Classification\Code\data\processed_data" --final_data_dir "D:\Thesis_Project\12_lead_ECG_Classification\Code\data\final_data" --model_dir "D:\Thesis_Project\12_lead_ECG_Classification\Code\model_checkpoints" --batch_size 64 --num_epochs 50 --patience 5 --lr 0.001  --device cuda
+
+=============================
+
+CNN GRU only
+
+python main.py --input_dir "D:\Thesis_Project\12_lead_ECG_Classification\Code\data\original_data" --output_dir "D:\Thesis_Project\12_lead_ECG_Classification\Code\data\processed_data" --final_data_dir "D:\Thesis_Project\12_lead_ECG_Classification\Code\data\final_data" --model_dir "D:\Thesis_Project\12_lead_ECG_Classification\Code\model_checkpoints" --batch_size 128 --num_epochs 50 --patience 5 --lr 0.001 --device cuda --model cnn_gru
+
+
+
+Wide deep transformer model only
+
+python main.py --input_dir "D:\Thesis_Project\12_lead_ECG_Classification\Code\data\original_data" --output_dir "D:\Thesis_Project\12_lead_ECG_Classification\Code\data\processed_data" --final_data_dir "D:\Thesis_Project\12_lead_ECG_Classification\Code\data\final_data" --model_dir "D:\Thesis_Project\12_lead_ECG_Classification\Code\model_checkpoints" --batch_size 128 --num_epochs 50 --patience 5 --device cuda --model transformer --model_size 256 --warmup_steps 4000
+
+Both Models
+
+python main.py --input_dir "D:\Thesis_Project\12_lead_ECG_Classification\Code\data\original_data" --output_dir "D:\Thesis_Project\12_lead_ECG_Classification\Code\data\processed_data" --final_data_dir "D:\Thesis_Project\12_lead_ECG_Classification\Code\data\final_data" --model_dir "D:\Thesis_Project\12_lead_ECG_Classification\Code\model_checkpoints" --batch_size 128 --num_epochs 50 --patience 5 --lr 0.001 --device cuda --model both
+
+
+
+===================================
+
+--eval_mode standard 
+--eval_mode cross_val 
+
+eval_mode argument to choose between:
+
+standard: Only st_petersburg_incart evaluation
+cross_val: Only cross-database validation
+both: Run both evaluations
+
+================
+
+
+python main.py --input_dir "D:\Thesis_Project\12_lead_ECG_Classification\Code\data\original_data" --output_dir "D:\Thesis_Project\12_lead_ECG_Classification\Code\data\processed_data" --final_data_dir "D:\Thesis_Project\12_lead_ECG_Classification\Code\data\final_data" --model_dir "D:\Thesis_Project\12_lead_ECG_Classification\Code\model_checkpoints" --batch_size 128 --num_epochs 50 --patience 5 --lr 0.001 --device cuda --model both  --eval_mode both --model_size 256 --warmup_steps 4000
+
+
+==========
+
+--cross_validation --n_folds 5
+
+==========
+
+
+python main.py --input_dir "D:/Thesis_Project/12_lead_ECG_Classification/Code/data/original_data" --output_dir "D:/Thesis_Project/12_lead_ECG_Classification/Code/data/processed_data" --final_data_dir "D:/Thesis_Project/12_lead_ECG_Classification/Code/data/final_data" --model_dir "D:/Thesis_Project/12_lead_ECG_Classification/Code/model_checkpoints" --batch_size 128 --num_epochs 50 --patience 5 --device cuda --model transformer --model_size 256 --warmup_steps 4000 --force_preprocess > ark_output.txt 2>&1
+
+python main.py --input_dir "D:/Thesis_Project/12_lead_ECG_Classification/Code/data/original_data" --output_dir "D:/Thesis_Project/12_lead_ECG_Classification/Code/data/processed_data" --final_data_dir "D:/Thesis_Project/12_lead_ECG_Classification/Code/data/final_data" --model_dir "D:/Thesis_Project/12_lead_ECG_Classification/Code/model_checkpoints" --batch_size 128 --num_epochs 50 --patience 5 --device cuda --model transformer --model_size 256 --warmup_steps 4000 | Tee-Object -FilePath ark_output.txt                                                                                                                                                                            
+                                                                  
+===============================
+
+Checking data leakge
+
+Go to the utils folder and run this command
+
+python .\check_data_leakage.py "D:/Thesis_Project/12_lead_ECG_Classification/Code/data/final_data"
+
+=========================
+
+
+python main.py --input_dir "D:\Thesis_Project\12_lead_ECG_Classification\Code\data\original_data" --output_dir "D:\Thesis_Project\12_lead_ECG_Classification\Code\data\processed_data" --final_data_dir "D:\Thesis_Project\12_lead_ECG_Classification\Code\data\final_data" --visualize --force_preprocess --model_dir "D:\Thesis_Project\12_lead_ECG_Classification\Code\model_checkpoints" --batch_size 128 --num_epochs 50 --patience 5 --lr 0.001 --device cuda --model both 
